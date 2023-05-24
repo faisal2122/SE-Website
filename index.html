@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department of Software Engineering</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar {
+      background-color: #343a40;
+    }
+    
+    .navbar-brand {
+      font-weight: bold;
+      color: #ffffff;
+    }
+    
+    .navbar-toggler {
+      border: none;
+      background-color: transparent;
+    }
+    
+    .navbar-toggler-icon {
+      background-image: url('https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/...');
+      width: 20px;
+      height: 20px;
+    }
+    
+    .navbar-nav .nav-link {
+      color: #ffffff;
+    }
+    
+    section {
+      padding: 40px;
+      background-color: #ffffff;
+      margin-bottom: 20px;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    
+    .btn-primary:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+    
+    .home-content {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .home-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .person-card {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .person-card img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    
+    .person-card h4 {
+      margin-bottom: 5px;
+    }
+    
+    .person-card p {
+      margin: 0;
+    }
+    
+    .success-message {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      z-index: 9999;
+    }
+
+    /* Additional CSS for the new sections */
+    .feature-section {
+      padding: 40px 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+
+    .feature-section h3 {
+      margin-bottom: 20px;
+    }
+
+    .feature-section-image {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .feature-section p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-department">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home page -->
+  <section id="home">
+    <div class="container">
+      <div class="home-content">
+        <h2>Welcome to the Department of Software Engineering</h2>
+        <img src="header.png" alt="Department Image" class="home-image">
+        <p>Empowering You to Change the World with Code - Join IUB BS and MS Programs in Software Engineering</p>
+        <a href="https://iub.edu.pk/" class="btn btn-primary">Enroll Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team section -->
+  <section id="team">
+    <div class="container">
+      <h2>Our Team</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="person-card">
+            <img src="https://dai.iub.edu.pk/assets/images/project/vc-dr-prof.jpeg" alt="">
+            <h4>Vice Chancellor</h4>
+            <p>Engr. Dr. Prof Athar Mehboob</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="person-card">
+            <img src="https://dai.iub.edu.pk/assets/images/project/img-4.jpg" alt="">
+            <h4>Dean - Faculty of Computing</h4>
+            <p>Prof. Dr. Muhammad Hussain Tahir</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="person-card">
+            <img src="https://media.licdn.com/dms/image/D4D03AQGVaE3B-ukpvA/profile-displayphoto-shrink_800_800/0/1667134273991?e=1685577600&amp;v=beta&amp;t=1X2NPPbNz4uzYKcs1o_iTCd8spv9NAoawokhTLGn1YY" alt="">
+            <h4>Chairman - Department of SE</h4>
+            <p>Dr. Nadeen Akhtar</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose SE section -->
+  <section id="why-choose-se" class="feature-section">
+    <div class="container">
+      <h3>Why Choose SE in IUB?</h3>
+      <p>Looking to engineer your way to the top? Choose Software Engineering at IUB, where our experienced faculty, cutting-edge resources, and real-world projects will give you a rock-solid foundation in the latest software engineering technologies and practices. Don't just build code – build a career with Software Engineering at IUB.</p>
+      <br>
+      <p class="quote"><h3>The possibilities are beyond your imagination.</h3></p>
+      <br>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="feature-section-image" src="https://new-giving.lums.edu.pk/sites/default/files/styles/international_955x716/public/2020-05/IMG_5164_0.JPG?h=a141e9ea" alt="">
+          <p class="feature-section-image-caption"><h3>Student Life</h3></p>
+          <p>Student life in IUB isn’t just lectures and assignments. Our labs are equipped with cutting-edge technology, providing an immersive experience for students to learn and experiment with the latest software tools.</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="feature-section-image" src="https://lums.edu.pk/sites/default/files/styles/image_crop_3_2_860x573/public/2022-10/08.jpg" alt="">
+          <p class="feature-section-image-caption"><h3>Current Student</h3></p>
+          <p>As a current student, you'll have access to our cutting-edge labs, state-of-the-art software, and exceptional faculty. You'll have access to our cutting-edge labs, state-of-the-art software, and exceptional faculty.</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="feature-section-image" src="https://rlmc.edu.pk/img/lab1.jpg" alt="">
+          <p class="feature-section-image-caption"><h3>Computer Labs</h3></p>
+          <p>With a rigorous curriculum, we prepare students with technical skills and principles for success in the field. Our tailored education and research opportunities equip students for their chosen career path.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About department section -->
+  <section id="about-department" class="feature-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>About Department</h3>
+          <p>The BS in SE degree equips students with theoretical as well as technical knowledge of the fundamentals of software engineering, algorithm analysis, data structures, programming languages, web development, and mobile application development.</p>
+          <p>There are courses in Software Quality Assurance to ensure software correctness, reliability, and safety, with the goal of producing high-quality software.</p>
+          <p>Courses such as Software Requirement Engineering, Software Design and Architecture, Software Construction and Development, Formal Methods in Software Engineering, Empirical Software Engineering, and Software Reverse Engineering provide students with the theoretical foundation and technical knowledge of software development.</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="feature-section-image" src="depart.png" alt="" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="feature-section">
+    <div class="container">
+      <h3>About IUB</h3>
+      <p>The Islamia University of Bahawalpur (IUB) is a public research university located in Bahawalpur, Pakistan. It is one of the oldest and most prestigious institutions of higher learning in Pakistan. The university offers a wide range of undergraduate and postgraduate programs in various disciplines.</p>
+      <p>Established in 1975, IUB is committed to providing quality education, fostering research, and promoting community engagement. The university has a diverse and vibrant campus environment that encourages intellectual growth, critical thinking, and innovation.</p>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact">
+    <div class="container">
+      <h3>Contact Us</h3>
+      <p>If you have any questions or would like to learn more about our department, feel free to reach out to us. Our team will be happy to assist you.</p>
+      <form action="contact.php" method="POST">
+        <div class="form-group">
+          <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Department of Software Engineering, IUB. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+
+
+
